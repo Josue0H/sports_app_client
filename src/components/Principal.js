@@ -7,20 +7,21 @@ import sportIcon from "../assets/icons/Sport.png";
 import {getSports} from "../api/index"
 
 
-
-function Principal() {
+//Te recomiendo que los componentes los hagas asi en vez de con function, pero es lo mismo, solo que este es como el uso normal
+const Principal = ({ history }) => {
     const [result = [], setResult] = useState();
 
     useEffect(() => {
         console.log('Sports');
-        const fetchData = async () => {
-            const response  = await getSports();
-            setResult(response.data.recordset);
-            // console.log('fetched Data', result.Item(1));
-            // console.log(result)
-        };
         fetchData();
     }, []);
+
+    const fetchData = async () => {
+        const response  = await getSports();
+        setResult(response.data.recordset);
+        // console.log('fetched Data', result.Item(1));
+        // console.log(result)
+    };
 
     return (
         <div>
