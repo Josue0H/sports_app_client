@@ -6,7 +6,7 @@ function NavbarElement() {
             
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a href="http://localhost:3000/"> <img width={80} src={logo} /> </a>
+                    <a href="http://localhost:3000/"> <img width={80} src={logo} alt="#" /> </a>
                 </div>
             </nav>
         </div>

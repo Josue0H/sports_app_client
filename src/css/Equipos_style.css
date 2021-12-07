@@ -1,6 +1,6 @@
 /* ----------------Container---------------- */
 
-.PaisesContainer{
+.TeamContainer{
     width: 80%;
     height: auto;
     text-align: center;
@@ -19,16 +19,15 @@
     transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
 
-.PaisesContainer h1{
+
+.TeamContainer h1{
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-
 /* ----------------Botones---------------- */
-
-.botonPaises {
+.botonTeam {
     font-size: 17px;
     font-family: sans-serif;
     background-color:  #ebebeb;
@@ -55,19 +54,20 @@
     transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
 
-.botonPaises:hover {
+.botonTeam:hover {
     background: #969696;
     color: #fff;
     transition: ease-in all 0.5s;
     border-radius: 25px;
     font-size: 20px;
+    text-align: center;
 }
 
-.botonPaises img{
+.botonTeam img{
     width: 40%;
 }
 
-.botonPaises:hover img{
+.botonTeam:hover img{
     transition: ease-in all 0.5s;
     width: 45%;
 }

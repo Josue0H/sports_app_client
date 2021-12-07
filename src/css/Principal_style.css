@@ -1,3 +1,5 @@
+/* ----------------Banner---------------- */
+
 .Banner{
     background: url(../assets/images/Principal/SportsBanner.jpg);
     background-repeat: no-repeat;
@@ -7,6 +9,7 @@
     align-content: center;
     align-items: center;
     background-size: 100% 100%;
+    margin-bottom: 30px;
 }
 
 .Banner h1{
@@ -21,13 +24,16 @@
 }
 
 
-.CountriesContainer{
-    width: 400px;
+
+/* ----------------Buscador---------------- */
+
+.SearchContainer{
+    width: 30em;
     height: auto;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 5% 10px 5%;
     margin-top: 30px;
+    margin-bottom: 60px;
 
     box-shadow:
         -7px -7px 20px 0px #0002,
@@ -40,25 +46,71 @@
     transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
 
-.CountriesContainer h1{
+.SearchContainer h1{
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
-
-.boton {
+.botonSearchTeam {
     font-size: 17px;
     font-family: sans-serif;
     background-color:  #ebebeb;
     color: rgb(0, 0, 0);
-    padding: 13px 50px;
-    width: 80%;
-    height: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     display: inline-block;
     transition: ease-in all 0.5s;
-    border-radius: 10px;
+
     margin-bottom: 20px;
+}
+
+.botonSearchTeam:hover {
+    background: #969696;
+    color: #fff;
+    transition: ease-in all 0.5s;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+
+/* ----------------Grafica---------------- */
+
+.GraphContainer{
+    width: 80%;
+    padding: 2% 2% 2% 2%;
+    box-shadow:
+        -7px -7px 20px 0px #0002,
+        -4px -4px 5px 0px #0002,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #0002,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #0002,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+.GraphContainer h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* ----------------Deportes---------------- */
+
+.ButtonsContainer{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    padding: 10px 5% 10px 5%;
+    margin-top: 30px;
+    margin-bottom: 60px;
 
     box-shadow:
         -7px -7px 20px 0px #0002,
@@ -71,19 +123,86 @@
     transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
 
-.boton:hover {
+.ButtonsContainer h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.botonPrincipal {
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color:  #ebebeb;
+    color: rgb(0, 0, 0);
+    padding: 13px 0px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+
+    box-shadow:
+        -7px -7px 20px 0px #0002,
+        -4px -4px 5px 0px #0002,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #0002,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #0002,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+.botonPrincipal:hover {
     background: #969696;
     color: #fff;
     transition: ease-in all 0.5s;
     border-radius: 25px;
     font-size: 20px;
+    text-align: center;
 }
 
-.boton img{
+.botonPrincipal img{
     width: 40%;
 }
 
-.boton:hover img{
+.botonPrincipal:hover img{
     transition: ease-in all 0.5s;
     width: 45%;
+}
+
+
+
+
+
+
+/* ----------------Filtros---------------- */
+
+.FiltrosContainer{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding: 10px 5% 10px 5%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    box-shadow:
+        -7px -7px 20px 0px #0002,
+        -4px -4px 5px 0px #0002,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #0002,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #0002,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+.FiltrosContainer h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }

@@ -18,4 +18,8 @@ export const getLeagueTeams = (id) => axios.get(url + '/league-teams/' + id);
 
 export const getTeam = (id) => axios.get(url + '/team/' + id);
 
-export const getSearchTeam = () => axios.get(url + '/search-teams/:teamName');
+export const getSearchTeam = (id) => axios.get(url + '/search-teams/' + id);
+
+export const getCountSportLeague = () => axios.get(url + '/search-count-sports-league');
+
+export const getLeagueByTeamInSpecific = (id) => axios.get(url + '/search-league-by-team-in-specific');
