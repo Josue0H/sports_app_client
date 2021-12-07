@@ -23,6 +23,11 @@
     text-align: center;
 }
 
+.Banner img:hover{
+    transition: ease-in all 0.5s;
+    width: 330px;
+}
+
 
 
 /* ----------------Buscador---------------- */
